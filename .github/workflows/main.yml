@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:      
       model:
-        description: 'SM-S928U1'
+        description: 'model number'
         required: true       
       imei:
-        description: '357994250927087'
+        description: 'your IMEI'
         required: true         
       csc:
-        description: 'XAA'
+        description: 'CSC'
         required: true              
 
 jobs:
