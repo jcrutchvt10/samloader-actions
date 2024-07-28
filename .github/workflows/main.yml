@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:      
       model:
-        description: 'Your Model Number'
+        description: 'SM-S928U1'
         required: true       
       imei:
-        description: 'Your IMEI'
+        description: '357994250927087'
         required: true         
       csc:
-        description: 'Your CSC (Samsung Region code)'
+        description: 'XAA'
         required: true              
 
 jobs:
